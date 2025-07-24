@@ -1,4 +1,3 @@
-// KanbanColumn.tsx
 import { useState } from "react";
 import type { Data } from "../types";
 import { Draggable, type DroppableProvidedProps } from "@hello-pangea/dnd";
