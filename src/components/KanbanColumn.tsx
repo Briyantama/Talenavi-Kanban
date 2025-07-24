@@ -42,7 +42,9 @@ function KanbanColumn({
           {title} <span className="text-xs opacity-75">({tasks.length})</span>
         </h2>
         <button
-          onClick={() => setIsMinimized(!isMinimized)}
+          onClick={() => {
+            setIsMinimized(!isMinimized);
+          }}
           className="text-xs underline opacity-90 hover:opacity-100"
         >
           {isMinimized ? "Expand" : "Collapse"}

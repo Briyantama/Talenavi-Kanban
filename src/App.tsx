@@ -60,7 +60,9 @@ function App() {
           placeholder="Search by title..."
           className="w-full px-4 py-2 border rounded-lg focus:outline-none"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value)}
+          }
         />
       </div>
 
